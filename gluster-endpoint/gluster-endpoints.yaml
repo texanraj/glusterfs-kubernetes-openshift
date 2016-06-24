@@ -9,5 +9,5 @@ subsets:
         ip: "10.36.5.77"
     ports: 
       - 
-        port: 1
+        port: 24007
         protocol: TCP
