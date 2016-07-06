@@ -53,11 +53,11 @@
                                    
                                     {
                                         "name": "gluster-etc",
-                                        "mountPath": "/etc/gluster"
+                                        "mountPath": "/etc/glusterfs"
                                     },
                                     {
                                         "name": "gluster-logs",
-                                        "mountPath": "/var/log/gluster"
+                                        "mountPath": "/var/log/glusterfs"
                                     },
                                     {
                                         "name": "gluster-config",
@@ -101,13 +101,13 @@
                             {
                                 "name": "gluster-etc",
                                 "hostPath": {
-                                    "path": "/etc/gluster"
+                                    "path": "/etc/glusterfs"
                                 }
                             },
                             {
                                 "name": "gluster-logs",
                                 "hostPath": {
-                                    "path": "/var/log/gluster"
+                                    "path": "/var/log/glusterfs"
                                 }
                             },
                             {
