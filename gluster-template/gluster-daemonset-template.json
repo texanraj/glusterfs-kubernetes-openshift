@@ -70,10 +70,10 @@
 							"mountPath": "/mnt/brick1",
 							"name": "gluster-brick"
 						}, {
-							"mountPath": "/etc/gluster",
+							"mountPath": "/etc/glusterfs",
 							"name": "gluster-etc"
 						}, {
-							"mountPath": "/var/log/gluster",
+							"mountPath": "/var/log/glusterfs",
 							"name": "gluster-logs"
 						}, {
 							"mountPath": "/var/lib/glusterd",
@@ -101,12 +101,12 @@
 						"name": "gluster-brick"
 					}, {
 						"hostPath": {
-							"path": "/etc/gluster"
+							"path": "/etc/glusterfs"
 						},
 						"name": "gluster-etc"
 					}, {
 						"hostPath": {
-							"path": "/var/log/gluster"
+							"path": "/var/log/glusterfs"
 						},
 						"name": "gluster-logs"
 					}, {
