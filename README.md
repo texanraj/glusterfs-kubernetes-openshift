@@ -377,4 +377,6 @@ exit
 [root@atomic-node2~]# 
 ~~~
 
+### Deploying GlusterFS using DaemonSet 
+Refer #http://tinyurl.com/jye44eb
 
